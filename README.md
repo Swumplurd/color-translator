@@ -56,7 +56,6 @@ Al introducir un color en español este sera traducido al ingles, ademas, el tex
 
 
         network.run(entrada).color > .5 ? $('#color-en').css("background", "white") : $('#color-en').css("background", "black");
-    }
     ```
 - Despues
     ```js
@@ -64,7 +63,6 @@ Al introducir un color en español este sera traducido al ingles, ademas, el tex
 
 
         network.run(entrada).color > .5 ? $('#color-en').css("color", "white") : $('#color-en').css("color", "black");
-    }
     ```
 ## Dependencias
 Las dependencias se encuentran por CDN, si se requieren locales los links a las respectivas webs son:
